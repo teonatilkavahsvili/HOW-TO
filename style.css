@@ -1,3 +1,12 @@
+/*fonts */
+h1{
+	font-family: "BPG Nino Mkhedruli Book";
+}
+p{
+	font-family: "BPG Nino Mkhedruli Book";
+}
+
+
 .container{
 	width: 940px;
 	margin: 0 auto;
@@ -45,13 +54,16 @@ nav a{
 }
 
 /*banner*/
+.banner img{
+	width:940px;
+}
 .banner {
 	position: relative;
 	text-align: center;
 	color: white;
 }
 .banner-text {
-	width: 100%;
+	width: 300px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -59,6 +71,18 @@ nav a{
 }
 h4{
 	color:#46A8D4;
+	
+}
+input[type=submit]{
+	background-color: #FFFFFF;
+	height: 30px;
+	width: 100px;
+	color: #7EC4CE;
+	border: 1px solid #949494;
+	border-radius: 25px;
+}
+input[type=submit]:hover{
+	color: #46A8D4;
 }
 
 /* globus*/
@@ -66,6 +90,7 @@ h4{
 .Globus{
 	width: 805px;
 	margin: auto;
+	margin-top: 10px;
 }
 .section{
 	margin-top: 30px;
@@ -103,7 +128,7 @@ h4{
 }
 
 .Box .frame{
-	border: 0.5px solid #727272;
+	border: 0.5px solid #949494;
 	border-top: none;
 	margin-top: 15px;
 	height: 165px;
@@ -140,4 +165,8 @@ width: 300px;
 }
 .container .instagram{
 	width:30px;
+}
+
+.container a{
+	color:#46A8D4;
 }
