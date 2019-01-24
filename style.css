@@ -79,7 +79,7 @@ header label:hover{
 	cursor: pointer;
 	background:#46A8D4 ;
 }
-.container input {
+input.checkbox{
 	display: none;
 }
 
